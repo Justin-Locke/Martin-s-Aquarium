@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+#fishList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    flex: 1;
+    max-width: 60%;
+}
+
+.fish {
+    background-color: #fff; /* Apply specific background in the grid */
+    border: 1px solid #ddd; /* Border for the fish item in the grid */
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#tipList {
+    flex: 0 0 35%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#locationList {
+    flex: 1 0 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
